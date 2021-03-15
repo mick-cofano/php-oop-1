@@ -61,8 +61,10 @@
     $newDealer->addCar($jeep);
     $newDealer->addCar($chevrolet);
 
-    var_dump($newDealer);
 
-
+    // questo l'ho cercato su stack-overflow per mettere il print_r in tante righe quanti sono gli oggetti XD
+    echo "<pre>";
+    print_r($newDealer->getCars());
+    echo "</pre>";
 
  ?>
